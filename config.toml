@@ -145,7 +145,7 @@ enableEmoji = true
           # title shown in home page (HTML format is supported)
           title = ""
           # subtitle shown in home page
-          subtitle = "A Clean, Elegant but Advanced Hugo Theme"
+          subtitle = "a blog,to record my study life"
           # whether to use typeit animation for subtitle
           typeit = true
           # whether to show social links
