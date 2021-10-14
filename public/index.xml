@@ -11,6 +11,6 @@
     <pubDate>Wed, 13 Oct 2021 19:42:48 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://cocowenlw.github.io/first_post/</guid>
-    <description><![CDATA[ ##cneter selection Algorithm In the k-means algorithm, we can start with (i) using an initial partition {S1, S2, &hellip;, Sk} or with (ii) using initial centers {c1, c2, &hellip;, ck}. Design a good initialization method for k-means algorithm for (i) and also for (ii) ]]></description>
+    <description><![CDATA[Center Selection Algorithm &ensp; In the k-means algorithm, we can start with (i) using an initial partition {S1, S2, ..., Sk} or with (ii) using initial centers {c1, c2, ..., ck}. Design a good initialization method for k-means algorithm for (i) and also for (ii) ]]></description>
 </item></channel>
 </rss>
