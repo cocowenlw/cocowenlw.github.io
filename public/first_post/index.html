@@ -6,7 +6,7 @@
         <meta name="robots" content="noodp" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
         <title>Center Selection Algorithm - cocowen&#39;s blog</title><meta name="Description" content="About LoveIt Theme"><meta property="og:title" content="Center Selection Algorithm" />
-<meta property="og:description" content="Center Selection Algorithm &ensp; In the k-means algorithm, we can start with (i) using an initial partition {S1, S2, ..., Sk} or with (ii) using initial centers {c1, c2, ..., ck}. Design a good initialization method for k-means algorithm for (i) and also for (ii)   题目相当于问k-means方法的初始化。常规的来说有三种方法，第一种随机选择初始点，第二种k-means&#43;&#43;，第三种基于层次的初始化。" />
+<meta property="og:description" content="Center Selection Algorithm &emsp;&emsp;In the k-means algorithm, we can start with (i) using an initial partition {S1, S2, ..., Sk} or with (ii) using initial centers {c1, c2, ..., ck}. Design a good initialization method for k-means algorithm for (i) and also for (ii)   题目相当于问k-means方法的初始化。常规的来说有三种方法，第一种随机选择初始点，第二种k-means&#43;&#43;，第三种基于层次的初始化。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://cocowenlw.github.io/first_post/" /><meta property="og:image" content="https://cocowenlw.github.io/logo.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-10-13T19:42:48+08:00" />
@@ -16,7 +16,7 @@
 <meta name="twitter:image" content="https://cocowenlw.github.io/logo.png"/>
 
 <meta name="twitter:title" content="Center Selection Algorithm"/>
-<meta name="twitter:description" content="Center Selection Algorithm &ensp; In the k-means algorithm, we can start with (i) using an initial partition {S1, S2, ..., Sk} or with (ii) using initial centers {c1, c2, ..., ck}. Design a good initialization method for k-means algorithm for (i) and also for (ii)   题目相当于问k-means方法的初始化。常规的来说有三种方法，第一种随机选择初始点，第二种k-means&#43;&#43;，第三种基于层次的初始化。"/>
+<meta name="twitter:description" content="Center Selection Algorithm &emsp;&emsp;In the k-means algorithm, we can start with (i) using an initial partition {S1, S2, ..., Sk} or with (ii) using initial centers {c1, c2, ..., ck}. Design a good initialization method for k-means algorithm for (i) and also for (ii)   题目相当于问k-means方法的初始化。常规的来说有三种方法，第一种随机选择初始点，第二种k-means&#43;&#43;，第三种基于层次的初始化。"/>
 <meta name="application-name" content="LoveIt">
 <meta name="apple-mobile-web-app-title" content="LoveIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -29,7 +29,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/cocowenlw.github.io\/first_post\/"
-        },"image": ["https:\/\/cocowenlw.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","wordcount":  46 ,
+        },"image": ["https:\/\/cocowenlw.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","wordcount":  45 ,
         "url": "https:\/\/cocowenlw.github.io\/first_post\/","datePublished": "2021-10-13T19:42:48+08:00","dateModified": "2021-10-13T19:42:48+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": "https:\/\/cocowenlw.github.io\/images\/avatar.png"},"author": {
@@ -110,7 +110,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">Center Selection Algorithm</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>wenlewei</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-10-13">2021-10-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;46 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-10-13">2021-10-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;45 words&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;One minute&nbsp;<span id="/first_post/" class="leancloud_visitors" data-flag-title="Center Selection Algorithm">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;views
                     </span>&nbsp;</div>
@@ -121,10 +121,18 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
             </div><div class="content" id="content"><center><font size =5>Center Selection Algorithm</font></center>
-<font face="黑体">&ensp; In the k-means algorithm, we can start with (i) using an initial partition {S1, S2, ..., Sk} or with (ii) using initial centers {c1, c2, ..., ck}. Design a good initialization method for k-means algorithm for (i) and also for (ii)  
+<font face="黑体">&emsp;&emsp;In the k-means algorithm, we can start with (i) using an initial partition {S1, S2, ..., Sk} or with (ii) using initial centers {c1, c2, ..., ck}. Design a good initialization method for k-means algorithm for (i) and also for (ii)  
 </font>
 <font face="黑体"> 
-<p>    题目相当于问k-means方法的初始化。常规的来说有三种方法，第一种随机选择初始点，第二种k-means++，第三种基于层次的初始化。</p>
+<p>  题目相当于问k-means方法的初始化。常规的来说有三种方法，第一种随机选择初始点，第二种k-means++，第三种基于层次的初始化。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/initial%201.jpg"
+        data-srcset="https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/initial%201.jpg, https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/initial%201.jpg 1.5x, https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/initial%201.jpg 2x"
+        data-sizes="auto"
+        alt="https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/initial%201.jpg"
+        title="avater" /></p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
