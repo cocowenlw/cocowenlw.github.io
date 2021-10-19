@@ -11,8 +11,8 @@
 1、随机选取第一个中心
 2、计算每个样本和已有聚类中心的最短距离。下一个中心被选中的概率与这个最短距离的平方成正比。D(xi)=min||xi−cr||2 其中D(xi)越大，选中概率越大。
 3、然后一直重复第二个步骤，直到选出K个中心点来。
-然后说一下我的方法，我选择第一个中心点的时候不是随机选择，而是想选择密度大的中心点。所以我计算了每一个点到其他点距离的总和，并将总和最小的那个点，作为我的初始点。然后就是选择离已选择中心尽可能远的点，与k-mean&#43;&#43;的思想类似，但是没有用轮盘法来进行选择。 下面是我简单举例展示出我的初始化和随机初始化的区别。
-{:height=&ldquo;50%&rdquo; width=&ldquo;50%&quot;} " />
+然后说一下我的方法，我选择第一个中心点的时候不是随机选择，而是想选择密度大的中心点。所以我计算了每一个点到其他点距离的总和，并将总和最小的那个点，作为我的初始点。然后就是选择离已选择中心尽可能远的点，与k-mean&#43;&#43;的思想类似，但是没有用轮盘法来进行选择。
+下面是我简单举例展示出我的初始化和随机初始化的区别。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://cocowenlw.github.io/first_post/" /><meta property="og:image" content="https://cocowenlw.github.io/logo.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-10-13T19:42:48+08:00" />
@@ -27,8 +27,8 @@
 1、随机选取第一个中心
 2、计算每个样本和已有聚类中心的最短距离。下一个中心被选中的概率与这个最短距离的平方成正比。D(xi)=min||xi−cr||2 其中D(xi)越大，选中概率越大。
 3、然后一直重复第二个步骤，直到选出K个中心点来。
-然后说一下我的方法，我选择第一个中心点的时候不是随机选择，而是想选择密度大的中心点。所以我计算了每一个点到其他点距离的总和，并将总和最小的那个点，作为我的初始点。然后就是选择离已选择中心尽可能远的点，与k-mean&#43;&#43;的思想类似，但是没有用轮盘法来进行选择。 下面是我简单举例展示出我的初始化和随机初始化的区别。
-{:height=&ldquo;50%&rdquo; width=&ldquo;50%&quot;} "/>
+然后说一下我的方法，我选择第一个中心点的时候不是随机选择，而是想选择密度大的中心点。所以我计算了每一个点到其他点距离的总和，并将总和最小的那个点，作为我的初始点。然后就是选择离已选择中心尽可能远的点，与k-mean&#43;&#43;的思想类似，但是没有用轮盘法来进行选择。
+下面是我简单举例展示出我的初始化和随机初始化的区别。"/>
 <meta name="application-name" content="LoveIt">
 <meta name="apple-mobile-web-app-title" content="LoveIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -41,7 +41,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/cocowenlw.github.io\/first_post\/"
-        },"image": ["https:\/\/cocowenlw.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","wordcount":  54 ,
+        },"image": ["https:\/\/cocowenlw.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","wordcount":  52 ,
         "url": "https:\/\/cocowenlw.github.io\/first_post\/","datePublished": "2021-10-13T19:42:48+08:00","dateModified": "2021-10-13T19:42:48+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": "https:\/\/cocowenlw.github.io\/images\/avatar.png"},"author": {
@@ -122,7 +122,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">Center Selection Algorithm</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>wenlewei</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-10-13">2021-10-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;54 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-10-13">2021-10-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;52 words&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;One minute&nbsp;<span id="/first_post/" class="leancloud_visitors" data-flag-title="Center Selection Algorithm">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;views
                     </span>&nbsp;</div>
@@ -141,7 +141,7 @@
   1、随机选取第一个中心<br>
   2、计算每个样本和已有聚类中心的最短距离。下一个中心被选中的概率与这个最短距离的平方成正比。D(x<sub>i</sub>)=min||x<sub>i</sub>−c<sub>r</sub>||<sup>2</sup> 其中D(x<sub>i</sub>)越大，选中概率越大。<br>
   3、然后一直重复第二个步骤，直到选出K个中心点来。<br>
-  然后说一下我的方法，我选择第一个中心点的时候不是随机选择，而是想选择密度大的中心点。所以我计算了每一个点到其他点距离的总和，并将总和最小的那个点，作为我的初始点。然后就是选择离已选择中心尽可能远的点，与k-mean++的思想类似，但是没有用轮盘法来进行选择。
+  然后说一下我的方法，我选择第一个中心点的时候不是随机选择，而是想选择密度大的中心点。所以我计算了每一个点到其他点距离的总和，并将总和最小的那个点，作为我的初始点。然后就是选择离已选择中心尽可能远的点，与k-mean++的思想类似，但是没有用轮盘法来进行选择。<br>
 <img
         class="lazyload"
         src="/svg/loading.min.svg"
@@ -151,22 +151,8 @@
         alt="https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/initial%20step.jpg"
         title="avater" /><br>
 下面是我简单举例展示出我的初始化和随机初始化的区别。<br>
-<img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/initial%201.jpg"
-        data-srcset="https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/initial%201.jpg, https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/initial%201.jpg 1.5x, https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/initial%201.jpg 2x"
-        data-sizes="auto"
-        alt="https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/initial%201.jpg"
-        title="avater" />{:height=&ldquo;50%&rdquo; width=&ldquo;50%&quot;}
-<img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/initial%202.jpg"
-        data-srcset="https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/initial%202.jpg, https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/initial%202.jpg 1.5x, https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/initial%202.jpg 2x"
-        data-sizes="auto"
-        alt="https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/initial%202.jpg"
-        title="avater" />
+<img src="https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/initial%201.jpg" width="400" height="350">
+<img src="https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/initial%202.jpg" width="400" height="350">
 <img
         class="lazyload"
         src="/svg/loading.min.svg"
