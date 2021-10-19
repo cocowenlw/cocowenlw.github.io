@@ -16,7 +16,8 @@ author: "wenlewei"
  &emsp;&emsp;2、计算每个样本和已有聚类中心的最短距离。下一个中心被选中的概率与这个最短距离的平方成正比。D(x<sub>i</sub>)=min||x<sub>i</sub>−c<sub>r</sub>||<sup>2</sup> 其中D(x<sub>i</sub>)越大，选中概率越大。  
  &emsp;&emsp;3、然后一直重复第二个步骤，直到选出K个中心点来。  
 &emsp;&emsp;然后说一下我的方法，我选择第一个中心点的时候不是随机选择，而是想选择密度大的中心点。所以我计算了每一个点到其他点距离的总和，并将总和最小的那个点，作为我的初始点。然后就是选择离已选择中心尽可能远的点，与k-mean++的思想类似，但是没有用轮盘法来进行选择。
-![avater](https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/initial%20step.jpg)
+![avater](https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/initial%20step.jpg)  
+下面是我简单举例展示出我的初始化和随机初始化的区别。  
 ![avater](https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/initial%201.jpg)
  
 
