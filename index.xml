@@ -25,6 +25,11 @@
 3、然后一直重复第二个步骤，直到选出K个中心点来。
 然后说一下我的方法，我选择第一个中心点的时候不是随机选择，而是想选择密度大的中心点。所以我计算了每一个点到其他点距离的总和，并将总和最小的那个点，作为我的初始点。然后就是选择离已选择中心尽可能远的点，与k-mean++的思想类似，但是没有用轮盘法来进行选择。
 下面是我简单举例展示出我的初始化和随机初始化的区别。
+首先是随机初始点，设置k值为2，橙色和蓝色点为随机生成的初始点，然后按照k-means算法进行聚类。
+&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;初始点设置&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;迭代第一次
+随机生成初始点后，用k-means算法迭代了三次达到了收敛。
+&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;迭代第二次&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;迭代第三次
+然后是用我的方法进行初始化，橙色的点是由我计算与其他点距离总和最小的点得到的，然后是选距离已有中心最远的点，就是蓝色的点。然后到k-means收敛，只迭代了一次。
 &amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;初始点设置&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;迭代第一次</description>
     </item>
     
