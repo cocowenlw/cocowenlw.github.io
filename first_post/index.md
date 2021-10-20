@@ -14,12 +14,12 @@
 &emsp;&emsp;然后说一下我的方法，我选择第一个中心点的时候不是随机选择，而是想选择密度大的中心点。所以我计算了每一个点到其他点距离的总和，并将总和最小的那个点，作为我的初始点。然后就是选择离已选择中心尽可能远的点，与k-mean++的思想类似，但是没有用轮盘法来进行选择。  
 ![avater](https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/initial%20step.jpg)  
 下面是我简单举例展示出我的初始化和随机初始化的区别。  
-<img src="https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/initial%201.jpg" width="400" height="350">
-<img src="https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/initial%202.jpg" width="400" height="350">
-![avater](https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/initial%203.jpg)
-![avater](https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/initial%204.jpg)
-![avater](https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/myinitial%201.jpg)
-![avater](https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/myinitial%202.jpg)
+<img src="https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/initial%201.jpg" width="300" height="250">
+<img src="https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/initial%202.jpg" width="300" height="250">
+<img src="https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/initial%203.jpg" width="300" height="250">
+<img src="https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/initial%204.jpg" width="300" height="250">
+<img src="https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/myinitial%201.jpg" width="300" height="250">
+<img src="https://raw.githubusercontent.com/cocowenlw/blog-picture/master/hugo/myinitial%202.jpg" width="300" height="250">
  
 
 
