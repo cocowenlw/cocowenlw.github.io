@@ -219,7 +219,7 @@ enableEmoji = true
         Gitea = ""
         XMPP = ""
         Matrix = ""
-        Bilibili = "陨落小文"
+        Bilibili = "73403353"
         Email = "xxxx@xxxx.com"
         RSS = true
         [languages.en.params.social.Mastodon]
