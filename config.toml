@@ -945,7 +945,7 @@ enableEmoji = true
       # Publisher info
       # 出版者信息
       [params.page.seo.publisher]
-        name = "xxxx"
+        name = "wenlewei"
         logoUrl = "/images/avatar.png"
 
   # TypeIt config
