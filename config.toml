@@ -159,7 +159,7 @@ enableEmoji = true
           paginate = 6
       # Social config in home page
       [languages.en.params.social]
-        GitHub = ""
+        GitHub = "x"
         Linkedin = ""
         Twitter = "xxxx"
         Instagram = "xxxx"
