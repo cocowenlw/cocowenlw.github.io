@@ -159,12 +159,12 @@ enableEmoji = true
           paginate = 6
       # Social config in home page
       [languages.en.params.social]
-        GitHub = "x"
+        GitHub = " "
         Linkedin = ""
         Twitter = "@wenlewei1"
         Instagram = "xxxx"
         Facebook = "xxxx"
-        Telegram = "xxxx"
+        Telegram = ""
         Medium = ""
         Gitlab = ""
         Youtubelegacy = "xxxx"
@@ -219,7 +219,7 @@ enableEmoji = true
         Gitea = ""
         XMPP = ""
         Matrix = ""
-        Bilibili = ""
+        Bilibili = "陨落小文"
         Email = "xxxx@xxxx.com"
         RSS = true
         [languages.en.params.social.Mastodon]
