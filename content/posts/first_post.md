@@ -3,7 +3,7 @@ title: "Center Selection Algorithm"
 date: 2021-10-13T19:42:48+08:00
 draft: false
 author: "wenlewei"
-tags: [中心选择算法]
+tags: [中心选择算法,算法]
 categories: [高级算法]
 ---
 <center><font size =5>Center Selection Algorithm</font></center>

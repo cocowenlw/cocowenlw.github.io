@@ -1,0 +1,26 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>算法 - Tag - cocowen&#39;s blog</title>
+        <link>https://cocowenlw.github.io/tags/%E7%AE%97%E6%B3%95/</link>
+        <description>算法 - Tag - cocowen&#39;s blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 13 Oct 2021 19:42:48 &#43;0800</lastBuildDate><atom:link href="https://cocowenlw.github.io/tags/%E7%AE%97%E6%B3%95/" rel="self" type="application/rss+xml" /><item>
+    <title>Center Selection Algorithm</title>
+    <link>https://cocowenlw.github.io/first_post/</link>
+    <pubDate>Wed, 13 Oct 2021 19:42:48 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://cocowenlw.github.io/first_post/</guid>
+    <description><![CDATA[Center Selection Algorithm &emsp;&emsp;In the k-means algorithm, we can start with (i) using an initial partition {S1, S2, ..., Sk} or with (ii) using initial centers {c1, c2, ..., ck}. Design a good initialization method for k-means algorithm for (i) and also for (ii)   题目相当于问k-means方法的初始化。常规的来说有三种方法，第一种随机选择初始点，第二种k-means++，第三种基于层次的初始化。对于聚类初始化算法来说，其效率很大程度上是跟其初始数据有关的，所以很难说某种算法非常的优秀，但总体上来说，k-means++应该是使用最广泛的一种。
+首先来讲一下kmeans++算法
+1、随机选取第一个中心
+2、计算每个样本和已有聚类中心的最短距离。下一个中心被选中的概率与这个最短距离的平方成正比。D(xi)=min||xi−cr||2 其中D(xi)越大，选中概率越大。
+3、然后一直重复第二个步骤，直到选出K个中心点来。
+然后说一下我的方法，我选择第一个中心点的时候不是随机选择，而是想选择密度大的中心点。所以我计算了每一个点到其他点距离的总和，并将总和最小的那个点，作为我的初始点。然后就是选择离已选择中心尽可能远的点，与k-mean++的思想类似，但是没有用轮盘法来进行选择。
+下面是我简单举例展示出我的初始化和随机初始化的区别。
+首先是随机初始点，设置k值为2，橙色和蓝色点为随机生成的初始点，然后按照k-means算法进行聚类。
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;初始点设置&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;迭代第一次
+随机生成初始点后，用k-means算法迭代了三次达到了收敛。
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;迭代第二次&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;迭代第三次
+然后是用我的方法进行初始化，橙色的点是由我计算与其他点距离总和最小的点得到的，然后是选距离已有中心最远的点，就是蓝色的点。然后到k-means收敛，只迭代了一次。
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;初始点设置&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;迭代第一次]]></description>
+</item></channel>
+</rss>
