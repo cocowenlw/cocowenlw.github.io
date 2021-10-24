@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://cocowenlw.github.io/categories/</loc>
-    <lastmod>2021-10-13T19:42:48+08:00</lastmod>
+    <lastmod>2021-10-24T20:13:35+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -25,15 +25,8 @@
   </url>
   
   <url>
-    <loc>https://cocowenlw.github.io/first_post/</loc>
-    <lastmod>2021-10-13T19:42:48+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://cocowenlw.github.io/</loc>
-    <lastmod>2021-10-13T19:42:48+08:00</lastmod>
+    <lastmod>2021-10-24T20:13:35+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -54,15 +47,22 @@
   </url>
   
   <url>
+    <loc>https://cocowenlw.github.io/fuzzy_c-means/</loc>
+    <lastmod>2021-10-24T20:13:35+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://cocowenlw.github.io/posts/</loc>
-    <lastmod>2021-10-13T19:42:48+08:00</lastmod>
+    <lastmod>2021-10-24T20:13:35+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://cocowenlw.github.io/tags/</loc>
-    <lastmod>2021-10-13T19:42:48+08:00</lastmod>
+    <lastmod>2021-10-24T20:13:35+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -83,21 +83,35 @@
   </url>
   
   <url>
-    <loc>https://cocowenlw.github.io/tags/%E4%B8%AD%E5%BF%83%E9%80%89%E6%8B%A9%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2021-10-13T19:42:48+08:00</lastmod>
+    <loc>https://cocowenlw.github.io/tags/%E6%A8%A1%E7%B3%8A%E9%80%89%E6%8B%A9%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2021-10-24T20:13:35+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://cocowenlw.github.io/tags/%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2021-10-13T19:42:48+08:00</lastmod>
+    <lastmod>2021-10-24T20:13:35+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://cocowenlw.github.io/categories/%E9%AB%98%E7%BA%A7%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2021-10-24T20:13:35+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://cocowenlw.github.io/first_post/</loc>
+    <lastmod>2021-10-13T19:42:48+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://cocowenlw.github.io/tags/%E4%B8%AD%E5%BF%83%E9%80%89%E6%8B%A9%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2021-10-13T19:42:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
